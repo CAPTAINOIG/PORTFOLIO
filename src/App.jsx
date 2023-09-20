@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import NavBar from "./component/Navbar";
+
 // import { Route, Routes } from "react-router-dom";
 import AboutMe from "./component/AboutMe";
 import Skills from "./component/Skills";
@@ -15,6 +15,7 @@ import './index.css'
 import Cv from "./component/Cv";
 import Project from "./component/Project";
 import Contact from "./component/Contact";
+import NavBar from "./component/Navbar";
 // {isOpen && <NavBar handleClose={toggleIsOpen}/>}
 function App() {
 
