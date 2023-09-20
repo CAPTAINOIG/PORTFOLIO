@@ -1,0 +1,37 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+#edu{
+    width: 28%;
+    background-color: white;
+}
+#edu:hover{
+    background-color: rgb(104, 60, 162);
+    color: white;
+    cursor: pointer;
+}
+#href{
+    position: absolute;
+    top: 40%;
+}
+
+@media  (max-width: 700px) {
+    #edu{
+        width: 100%;
+        background-color: white;
+    }
+    #href{
+        position: absolute;
+        top: 55%;
+        display: flex;
+    }
+}
