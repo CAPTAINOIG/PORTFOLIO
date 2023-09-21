@@ -39,7 +39,7 @@ function App() {
           <NavBarDesktop />
           <div className=" text-red-200 cursor-pointer text-[1rem] lg:hidden transition duration-[0.8s]">
             <Nav isOpen={isOpen} handleClose={toggleIsOpen} />
-            <FaBars onClick={toggleIsOpen} />
+            <FaBars className="mt-2 w-10" onClick={toggleIsOpen} />
           </div>
         </div>
         <Middle />
