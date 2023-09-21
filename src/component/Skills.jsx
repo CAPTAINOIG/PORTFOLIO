@@ -7,14 +7,17 @@ const Skills = () => {
 
   return (
     <div  data-aos="fade-right">
-    <div className='text-white bg-gray-800 text-center my-5 mt-10'>
+    <div className='text-white bg-gray-800 w-[90%] p-2 rounded-md mx-auto text-center my-5 mt-10'>
     <div className='text-center justify-center text-3xl gap-3 flex'>
     <span className='mt-1'>
       <BsCodeSlash/>
     </span>
     <span>My Skills</span>
     </div>
-        <div className='text-center mt-2'>The skills utilized to manifest the design goes beyond the technical skills but also include creativity, technical expertise, problem-solving, attention to detail, effective communication, adaptability, collaboration, and a keen understanding of user experience and aesthetics.</div>
+        <div className=' mt-2 p-3 m-2'>
+        <p>The skills utilized to manifest the design goes beyond the technical skills but also include creativity, technical expertise, problem-solving, attention to detail, effective communication, adaptability, collaboration, and a keen understanding of user experience and aesthetics.
+        </p>
+        </div>
     </div>
 
 

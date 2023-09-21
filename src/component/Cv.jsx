@@ -10,7 +10,7 @@ const Cv = () => {
     
   return (
     <div data-aos="fade-up">
-    <div className='mx-auto text-center my-5 font-bold '>
+    <div className='mx-auto text-center mt-10 font-bold '>
     <a className='bg-white p-2 rounded' href="https://drive.google.com/file/d/13luPpatG_DZcLTxwSSasEV-u-DLmgTnK/view?usp=sharing">DOWNLOAD CV</a>
     </div>
     

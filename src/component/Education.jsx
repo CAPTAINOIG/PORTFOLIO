@@ -17,7 +17,7 @@ const Education = () => {
   return (
     <>
 <section data-aos="flip-down">
-<div id='education' className='flex lg:ms-96 ms-20  data-aos="flip-down"'>
+<div id='education' className='flex lg:ms-96 ms-20 gap-5 mb-10 data-aos="flip-down"'>
 <div className='text-white text-4xl text-center lg:ms-36'>Education</div>
     <div className='text-white mt-1'><RiGraduationCapLine size={35}/></div>
     </div>

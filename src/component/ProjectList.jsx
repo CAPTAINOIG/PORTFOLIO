@@ -15,7 +15,7 @@ export const ProjectList = [
     },
     {
         image: "/image/school.jpg",
-        title: "Shcool Portal",
+        title: "School Portal",
         gitlink: "https://database-phi-ten.vercel.app/",
         content: "Portals can play an important role in managing the staff, faculty, students, and rest of the workforce right from your desk It can increase a university’s profile and its ..",
     },
