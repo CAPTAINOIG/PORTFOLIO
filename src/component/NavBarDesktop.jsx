@@ -8,7 +8,7 @@ const NavBarDesktop = () => {
     <ul className='flex items-center justify-center gap-[2rem] '>
     {options.map((item, index) => (
       <li key={index}>
-      <Link
+      <Link 
       smooth
           to = {item.link}
           key={item.name} className=' text-white cursor-pointer hover:bg-btn hover:text-lightBg text-[16px] hover:text-lime-400  p-1

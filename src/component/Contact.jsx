@@ -2,6 +2,9 @@ import React, { useEffect } from 'react'
 import team from '../assets/image/team.png'
 import {AiFillGithub} from 'react-icons/ai'
 import {BsLinkedin} from 'react-icons/bs'
+import {RiTwitterXLine} from 'react-icons/ri'
+
+
 import Aos from 'aos'
 const Contact = () => {
   useEffect(() => {
@@ -15,6 +18,7 @@ const Contact = () => {
     <div id='href'>
     <a href="https://github.com/CAPTAINOIG"><AiFillGithub className=' ms-10 text-white me-19' size={36}/></a>
     <a href="https://www.linkedin.com/in/samsudeen-abdullahi-645613274/"><BsLinkedin className='mt-5 ms-10 text-white me-19' size={36}/></a>
+   <a href="https://twitter.com/ABDULLAHISAMSU8"><RiTwitterXLine className='ms-10 text-white mt-10' size={36}/></a>
     </div>
       <div className='grid lg:grid-cols-2'>
       <div className='lg:mt-36 mt-10 lg:ms-28 ms-8'>

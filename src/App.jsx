@@ -16,6 +16,7 @@ import Cv from "./component/Cv";
 import Project from "./component/Project";
 import Contact from "./component/Contact";
 import NavBar from "./component/Navbar";
+import Footer from "./component/Footer";
 // {isOpen && <NavBar handleClose={toggleIsOpen}/>}
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
         <Cv/>
         <Project/>
         <Contact/>
+        <Footer/>
       </div>
     </>
 
