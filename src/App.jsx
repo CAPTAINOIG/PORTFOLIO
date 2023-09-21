@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-
-// import { Route, Routes } from "react-router-dom";
 import AboutMe from "./component/AboutMe";
 import Skills from "./component/Skills";
 import NavBarDesktop from "./component/NavBarDesktop";
@@ -17,7 +15,7 @@ import Project from "./component/Project";
 import Contact from "./component/Contact";
 import NavBar from "./component/Navbar";
 import Footer from "./component/Footer";
-// {isOpen && <NavBar handleClose={toggleIsOpen}/>}
+
 function App() {
 
   useEffect(() => {
