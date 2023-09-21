@@ -34,8 +34,8 @@ function App() {
   return (
     <>
 
-      <div className="min-h-screen font-bodyFont overflow-x-hidden">
-        <div className="bg-lightBg sticky top-0 z-[100000]">
+      <div className="min-h-screen font-bodyFont  overflow-x-hidden">
+        <div className="bg-lightBg fixed w-full top-0 z-[100000]">
           <NavBarDesktop />
           <div className=" text-red-200 cursor-pointer text-[1rem] lg:hidden transition duration-[0.8s]">
             <Nav isOpen={isOpen} handleClose={toggleIsOpen} />

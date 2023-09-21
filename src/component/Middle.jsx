@@ -8,11 +8,11 @@ const Middle = () => {
         <>
    
         <div data-aos="fade-right">
-        <h1 className="lg:ms-32 font-bold sm:mt-20 mt-10 ms-10 text-white lg:text-7xl text-5xl sm:mt-5">
+        <h1 className="lg:ms-32 font-bold mt-28 lg:mt-36 ms-10 text-white lg:text-7xl text-5xl sm:mt-5">
         <span>Hello!, 👋</span> I'm <br /> <span className='text-lime-500'>Oluwasegun</span>
                 </h1>
 
-                <div className='lg:ms-32 ms-10 mt-5 text-white text-5xl'>
+                <div className='lg:ms-32 ms-10 mt-5 text-white lg:text-5xl text-2xl'>
                     <h2 className=''>
                         An Expert in{" "}
                         <TypeAnimation
@@ -23,20 +23,18 @@ const Middle = () => {
                                 500,
                                 "CSS",
                                 500,
-                                "SASS",
-                                500,
                                 "Bootstrap",
-                                1000,
+                                500,
                                 "MERN Stack",
-                                1000,
+                                500,
                                 "Express JS",
-                                1000,
+                                500,
                                 "JavaScript",
-                                1000,
+                                500,
                                 "React JS",
-                                1000,
+                                500,
                                 "HTML",
-                                1000,
+                                500,
                             ]}
                             style={{ fontSize: "1em" }}
                             repeat={Infinity}
