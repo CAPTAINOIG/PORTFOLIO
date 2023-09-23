@@ -23,15 +23,24 @@
     position: absolute;
     top: 40%;
 }
+#fullname, #email, #org, #message{
+    width: 56%;
+    padding: 1%;
+}
 
 @media  (max-width: 700px) {
     #edu{
         width: 100%;
         background-color: white;
     }
+
     #href{
         position: absolute;
         top: 55%;
         display: flex;
+    }
+    #fullname, #email, #org, #message{
+        width: 93%;
+        padding: 1%;
     }
 }
