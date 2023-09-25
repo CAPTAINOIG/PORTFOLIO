@@ -44,7 +44,7 @@ const Contact = () => {
       onSubmit: (values) => {
         axios.post(endpoint, values)
         .then((response) => {
-              console.log(response.data.message);
+              console.log(response);
          
             })
             .catch((err) => {
