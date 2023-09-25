@@ -32,8 +32,6 @@ const Contact = () => {
    let length = new RegExp(`(?=.{8,})`);
   
   // let endpoint = 'http://localhost:3300/help'
-  // let endpoint = 'https://portfolio-backend-s07d.onrender.com/help'
-  //  let endpoint = 'https://portfolio-backen-iy35.onrender.com/help'
    let endpoint = 'https://port-mxyp.onrender.com/help'
     const formik = useFormik({
       initialValues: {
@@ -106,7 +104,7 @@ const Contact = () => {
           </div>
           <button type='submit' className='text-white w-80 rounded font-bold bg-red-500 p-2'>Send Message</button>
           <div className='text-white font-bold lg:mt-5 mt-1'>
-          {userMessage ? 'Mail has been sent' : ''}
+          {userMessage}
           </div> 
           </form>
         </div>
