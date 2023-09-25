@@ -17,7 +17,7 @@ const Contact = () => {
   // const [email, setEmail] = useState("")
   // const [organization, setOrganization] = useState("")
   // const [message, setMessage] = useState("")
-  const [userMessage, setUserMessage] = useState("")
+  // const [userMessage, setUserMessage] = useState("")
 
 
   useEffect(() => {
@@ -45,7 +45,7 @@ const Contact = () => {
         axios.post(endpoint, values)
         .then((response) => {
               console.log(response.data.message);
-              setUserMessage(response.data.message)
+         
             })
             .catch((err) => {
               console.log(err);
@@ -104,7 +104,7 @@ const Contact = () => {
           </div>
           <button type='submit' className='text-white w-80 rounded font-bold bg-red-500 p-2'>Send Message</button>
           <div className='text-white font-bold lg:mt-5 mt-1'>
-          {userMessage}
+         
           </div> 
           </form>
         </div>
