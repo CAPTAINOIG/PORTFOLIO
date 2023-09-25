@@ -31,8 +31,10 @@ const Contact = () => {
    let number = new RegExp(`(?=.*[0-9])`);
    let length = new RegExp(`(?=.{8,})`);
   
-  let endpoint = 'http://localhost:3300/help'
-
+  // let endpoint = 'http://localhost:3300/help'
+  // let endpoint = 'https://portfolio-backend-s07d.onrender.com/help'
+  //  let endpoint = 'https://portfolio-backen-iy35.onrender.com/help'
+   let endpoint = 'https://port-mxyp.onrender.com/help'
     const formik = useFormik({
       initialValues: {
         fullName: "",
