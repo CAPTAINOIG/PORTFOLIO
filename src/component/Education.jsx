@@ -14,7 +14,7 @@ const Education = () => {
     
   }, [])
   
-  return (
+  return ( 
     <>
 <section data-aos="flip-down">
 <div id='education' className='flex lg:ms-96 ms-20 gap-5 mb-10 data-aos="flip-down"'>

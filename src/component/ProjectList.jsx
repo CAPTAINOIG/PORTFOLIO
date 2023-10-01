@@ -32,9 +32,9 @@ export const ProjectList = [
         content: "The most common type of accommodation in the hotel industry, a hotel is defined as an establishment that offers overnight accommodation, meals and other services. They are mainly aimed at travelers or tourists. Hotels provide private rooms and almost always have en-suite bathrooms.",
     },
     {
-        image: "/image/advice.JPG",
-        title: "Advice App Generator",
-        gitlink: "https://advice-app-eta.vercel.app/",
-        content: "Advice (also called exhortation) is a form of relating personal or institutional opinions, belief systems, values, recommendations or guidance about certain situations relayed in some context to another person, group or party. Advice is often offered as a guide to action and/or conduct. Developed by Captain OIG",
+        image: "/image/product1.jpg",
+        title: "React E-Commerce",
+        gitlink: "https://mini-e-commerce-eight.vercel.app/",
+        content: "Ecommerce is a method of buying and selling goods and services online. The definition of ecommerce business can also include tactics like affiliate marketing.",
     },
 ]

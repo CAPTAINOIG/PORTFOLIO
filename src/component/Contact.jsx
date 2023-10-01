@@ -17,7 +17,7 @@ const Contact = () => {
   // const [email, setEmail] = useState("")
   // const [organization, setOrganization] = useState("")
   // const [message, setMessage] = useState("")
-  // const [userMessage, setUserMessage] = useState("")
+  const [userMessage, setUserMessage] = useState("")
 
 
   useEffect(() => {
@@ -31,8 +31,8 @@ const Contact = () => {
    let number = new RegExp(`(?=.*[0-9])`);
    let length = new RegExp(`(?=.{8,})`);
   
-  // let endpoint = 'http://localhost:4444/contact'
-   let endpoint = 'https://portfolio-backend-d216.onrender.com/contact'
+  let endpoint = 'http://localhost:4444/contact'
+  //  let endpoint = 'https://portfolio-backend-d216.onrender.com/contact'
     const formik = useFormik({
       initialValues: {
         fullName: "",
@@ -41,15 +41,17 @@ const Contact = () => {
         message: "",
       },
 
-      onSubmit: (values) => {
+      onSubmit: (values, {resetForm}) => {
         axios.post(endpoint, values)
         .then((response) => {
-              console.log(response);
+              console.log(response.data.message);
+              setUserMessage(response.data.message)
          
             })
             .catch((err) => {
               console.log(err);
             })
+            resetForm({values:""})
     },
 
       validationSchema: Yup.object({
