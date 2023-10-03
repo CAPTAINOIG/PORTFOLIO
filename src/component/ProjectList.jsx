@@ -22,7 +22,7 @@ export const ProjectList = [
     {
         image: "/image/bankapp.png",
         title: "Bank App",
-        gitlink: "https://shimmering-souffle-9594b2.netlify.app/",
+        gitlink: "https://dashing-hamster-952c9f.netlify.app/signup",
         content: "The benefits of mobile banking for users include time efficiency, the possibility to manage funds, transfer money, and detect frauds quickly. Also with the help of digital banking users have 24/7 access to their accounts",
     },
     {
