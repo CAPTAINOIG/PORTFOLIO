@@ -16,13 +16,13 @@ export const ProjectList = [
     {
         image: "/image/school.jpg",
         title: "School Portal",
-        gitlink: "https://database-phi-ten.vercel.app/",
+        gitlink: "https://shimmering-souffle-9594b2.netlify.app/",
         content: "Portals can play an important role in managing the staff, faculty, students, and rest of the workforce right from your desk It can increase a university’s profile and its ..",
     },
     {
         image: "/image/bankapp.png",
         title: "Bank App",
-        gitlink: "https://bank-app-lac.vercel.app/",
+        gitlink: "https://shimmering-souffle-9594b2.netlify.app/",
         content: "The benefits of mobile banking for users include time efficiency, the possibility to manage funds, transfer money, and detect frauds quickly. Also with the help of digital banking users have 24/7 access to their accounts",
     },
     {
