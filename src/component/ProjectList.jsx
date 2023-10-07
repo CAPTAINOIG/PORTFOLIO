@@ -8,10 +8,10 @@ export const ProjectList = [
         
     },
     {
-        image: "/image/age.png",
-        title: "Age Calculator App",
-        gitlink: "https://age-calculator-app-znxa.vercel.app/",
-        content: "An age calculator is an online tool that helps determine a person's age based on their date of birth and the current date. It works by subtracting the birth date from the.. ",
+        image: "/image/mask.jpeg",
+        title: "Anonymous App",
+        gitlink: "https://beautiful-taffy-79e1d2.netlify.app",
+        content: " Users share ideas, ask questions, and interact with other users without revealing their identity ",
     },
     {
         image: "/image/school.jpg",
@@ -22,14 +22,14 @@ export const ProjectList = [
     {
         image: "/image/bankapp.png",
         title: "Bank App",
-        gitlink: "https://dashing-hamster-952c9f.netlify.app/signup",
+        gitlink: "https://dashing-hamster-952c9f.netlify.app/",
         content: "The benefits of mobile banking for users include time efficiency, the possibility to manage funds, transfer money, and detect frauds quickly. Also with the help of digital banking users have 24/7 access to their accounts",
     },
     {
-        image: "/image/hotel.jpg",
-        title: "Hotel Website",
-        gitlink: "https://hotel-website-one.vercel.app/",
-        content: "The most common type of accommodation in the hotel industry, a hotel is defined as an establishment that offers overnight accommodation, meals and other services. They are mainly aimed at travelers or tourists. Hotels provide private rooms and almost always have en-suite bathrooms.",
+        image: "/image/step.svg",
+        title: "Multi-Step",
+        gitlink: "https://6521839083e18d14ecface79--cheery-hotteok-8dc4ea.netlify.app/",
+        content: "TA multi-step form is exactly what it sounds like — a long-form broken down into multiple pieces/steps to make an otherwise long form less intimidating for visitors to complete. The additional fields only appear after a visitor has filled in their baseline information, like name and email address",
     },
     {
         image: "/image/product1.jpg",
