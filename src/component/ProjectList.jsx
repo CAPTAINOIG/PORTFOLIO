@@ -34,7 +34,7 @@ export const ProjectList = [
     {
         image: "/image/product1.jpg",
         title: "React E-Commerce",
-        gitlink: "https://captainoig-mini-e-commerce.netlify.app",
+        gitlink: "https://captainoig-mini-e-commerce.netlify.app/",
         content: "Ecommerce is a method of buying and selling goods and services online. The definition of ecommerce business can also include tactics like affiliate marketing.",
     },
 ]
