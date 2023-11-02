@@ -20,10 +20,10 @@ export const ProjectList = [
         content: "Portals can play an important role in managing the staff, faculty, students, and rest of the workforce right from your desk It can increase a university’s profile and its ..",
     },
     {
-        image: "/image/bankapp.png",
-        title: "Bank App",
-        gitlink: "https://dashing-hamster-952c9f.netlify.app/",
-        content: "The benefits of mobile banking for users include time efficiency, the possibility to manage funds, transfer money, and detect frauds quickly. Also with the help of digital banking users have 24/7 access to their accounts",
+        image: "/image/admi.png",
+        title: "Admin Dashboard",
+        gitlink: "https://captain-oig-admin-dashboard.netlify.app",
+        content: "An admin dashboard template is a powerful tool that streamlines the process of building a robust and user-friendly admin panel for web applications.  It provides a pre-designed interface with various components and features to manage and monitor the backend of an application",
     },
     {
         image: "/image/step.svg",
