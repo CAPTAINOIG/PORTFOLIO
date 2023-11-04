@@ -1,10 +1,10 @@
 
 export const ProjectList = [
     {
-        image: "/image/dictionary.png",
-        title: "Dictionary App",
-        gitlink: "https://dictionary-eight-xi.vercel.app/",
-        content: "A dictionary can be used to look up the meaning of a word It can also be use a dictionary to check the spelling of a word",
+        image: "/image/cinema.jpg",
+        title: "Trending Movies",
+        gitlink: "https://captain-oig-trending-movies.netlify.app/",
+        content: "This app is centered on updating the viewers and movie lovers of changes and newly released movie. it contains the popular movies, similar, top rated and trendind movies",
         
     },
     {
