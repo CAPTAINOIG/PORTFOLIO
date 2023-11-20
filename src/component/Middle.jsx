@@ -14,7 +14,7 @@ const Middle = () => {
 
                 <div className='lg:ms-32 ms-10 mt-5 text-white lg:text-5xl text-2xl'>
                     <h2 className=''>
-                        An Expert in{" "}
+                        A Proficient in{" "}
                         <TypeAnimation
                             sequence={[
                                 "Front-End",
