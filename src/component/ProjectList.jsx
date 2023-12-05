@@ -1,10 +1,10 @@
 
 export const ProjectList = [
     {
-        image: "/image/cinema.jpg",
-        title: "Trending Movies",
-        gitlink: "https://captain-oig-trending-movies.netlify.app/",
-        content: "This app is centered on updating the viewers and movie lovers of changes and newly released movie. it contains the popular movies, similar, top rated and trendind movies",
+        image: "/image/book.jpeg",
+        title: "Real Estate Booking App",
+        gitlink: "https://captain-bnb.netlify.app/",
+        content: "Booking apps allow users to reserve various services or products, such as accommodations, flights, restaurants or lodging. This app allows users to book and host a property. This is fullstack project using React, Node and TailwindCSS",
         
     },
     {
@@ -32,9 +32,12 @@ export const ProjectList = [
         content: "TA multi-step form is exactly what it sounds like — a long-form broken down into multiple pieces/steps to make an otherwise long form less intimidating for visitors to complete. The additional fields only appear after a visitor has filled in their baseline information, like name and email address",
     },
     {
-        image: "/image/product1.jpg",
-        title: "React E-Commerce",
-        gitlink: "https://captainoig-mini-e-commerce.netlify.app/",
-        content: "Ecommerce is a method of buying and selling goods and services online. The definition of ecommerce business can also include tactics like affiliate marketing.",
+        image: "/image/cinema.jpg",
+        title: "Trending Movies",
+        gitlink: "https://captain-oig-trending-movies.netlify.app/",
+        content: "This app is centered on updating the viewers and movie lovers of changes and newly released movie. it contains the popular movies, similar, top rated and trendind movies",
+        
     },
+
+    
 ]
