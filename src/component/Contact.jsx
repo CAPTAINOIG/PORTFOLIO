@@ -31,8 +31,8 @@ const Contact = () => {
    let number = new RegExp(`(?=.*[0-9])`);
    let length = new RegExp(`(?=.{8,})`);
   
-  let endpoint = 'http://localhost:4444/contact'
-  //  let endpoint = 'https://portfolio-backend-d216.onrender.com/contact'
+  // let endpoint = 'http://localhost:4444/contact'
+   let endpoint = 'https://portfolio-backend-d216.onrender.com/contact'
     const formik = useFormik({
       initialValues: {
         fullName: "",
@@ -80,26 +80,26 @@ const Contact = () => {
         <div className='lg:mt-36 mt-10 lg:ms-28 ms-8'>
           <div className='text-white'>CONTACT ME</div>
         <form action="" onSubmit={formik.handleSubmit}>
-          <div className='my-2 w-80 w-full rounded'>
+          <div className='my-2  w-full rounded'>
             <label className='text-white' htmlFor="">Fullname</label> <br />
             <input type="text" id='fullname' placeholder='Enter Your Fullname' onChange={formik.handleChange} onBlur={formik.handleBlur} className={formik.touched.fullName && formik.errors.fullName ? "form-control is-invalid" : "form-control"} value={formik.values.fullName} name='fullName' />
           <p><small className='text-red-600 font-bold'>{formik.touched.fullName && formik.errors.fullName}</small></p>
           </div>
 
-          <div className='my-2 w-80 w-full rounded'>
+          <div className='my-2 w-full rounded'>
             <label className='text-white' htmlFor="">Email</label> <br />
             <input type="text" id='email' placeholder='Enter Your Email' onChange={formik.handleChange} onBlur={formik.handleBlur} className={formik.touched.email && formik.errors.email ? "form-control is-invalid" : "form-control"} value={formik.values.email} name='email' />
           <p><small className='text-red-600 font-bold'>{formik.touched.email && formik.errors.email}</small></p>
           </div>
 
 
-          <div className='my-2 w-80 w-full rounded'>
+          <div className='my-2  w-full rounded'>
             <label className='text-white' htmlFor="">Organization</label> <br />
             <input type="text" id='org' placeholder='Enter Your Organization' onChange={formik.handleChange} onBlur={formik.handleBlur} className={formik.touched.organization && formik.errors.organization ? "form-control is-invalid" : "form-control"} value={formik.values.organization} name='organization' />
             <p><small className='text-red-600 font-bold'>{formik.touched.organization && formik.errors.organization}</small></p>
           </div>
           
-          <div className='my-2 w-80 w-full rounded'>
+          <div className='my-2  w-full rounded'>
             <label className='text-white' htmlFor="">Message</label> <br />
             <textarea id='message' placeholder='Enter Your Message' onChange={formik.handleChange} onBlur={formik.handleBlur} className={formik.touched.message && formik.errors.message ? "form-control is-invalid" : "form-control"} value={formik.values.message} name='message' cols="30" rows="5"></textarea>
             <p><small className='text-red-600 font-bold'>{formik.touched.message && formik.errors.message}</small></p>          
