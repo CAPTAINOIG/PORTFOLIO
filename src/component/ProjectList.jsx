@@ -20,10 +20,10 @@ export const ProjectList = [
         content: "Portals can play an important role in managing the staff, faculty, students, and rest of the workforce right from your desk It can increase a university’s profile and its ..",
     },
     {
-        image: "/image/admi.png",
-        title: "Admin Dashboard",
-        gitlink: "https://captain-oig-admin-dashboard.netlify.app",
-        content: "An admin dashboard template is a powerful tool that streamlines the process of building a robust and user-friendly admin panel for web applications.  It provides a pre-designed interface with various components and features to manage and monitor the backend of an application",
+        image: "/image/image1.jpg",
+        title: "E-commerce",
+        gitlink: "https://captainoig-e-commerce.netlify.app/",
+        content: "E-commerce (electronic commerce) is the buying and selling of goods and services, or the transmitting of funds or data, over an electronic network, primarily the internet.",
     },
     {
         image: "/image/step.svg",

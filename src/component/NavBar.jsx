@@ -3,14 +3,11 @@ import { Link } from "react-scroll";
 import { AiOutlineClose } from "react-icons/ai";
 import { options } from "./NavList";
 
-const NavBar = ({handleClose, isOpen}) => {
-  // const handleClose = () => {
-  //   document.querySelector(".close").style.display = "none";
-  // };
+const NavBar = ({ handleClose, isOpen }) => {
 
   return (
     <>
-    
+
       <div className={`${isOpen ? "block" : "hidden"} z-[1000000] lg:hidden  bg-slate-950 min-h-screen w-[60%] md:w-[30%]  p-4 text-[1.5rem] fixed top-0 bottom-0 left-0`}
       >
         <div className="relative">
@@ -34,18 +31,18 @@ const NavBar = ({handleClose, isOpen}) => {
                     onClick={handleClose}
                     key={item.name}
                   >
-                  <div className="text-blue-200">
-                  {item.name}
-                  </div>
+                    <div className="text-blue-200">
+                      {item.name}
+                    </div>
                   </Link>
                 </li>
-                </div>
-                ))}
-                </ul>
-                </div>
-                </div>
-                
-        </>
+              </div>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+    </>
   );
 };
 
