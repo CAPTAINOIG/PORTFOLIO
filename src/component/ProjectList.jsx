@@ -27,7 +27,7 @@ export const ProjectList = [
     },
     {
         image: "/image/step.svg",
-        title: "Multi-Step",
+        title: "Multi-Step Subscription Form",
         gitlink: "https://captainoig-multistep-form.netlify.app",
         content: "TA multi-step form is exactly what it sounds like — a long-form broken down into multiple pieces/steps to make an otherwise long form less intimidating for visitors to complete. The additional fields only appear after a visitor has filled in their baseline information, like name and email address",
     },
