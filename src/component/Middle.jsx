@@ -11,7 +11,6 @@ const Middle = () => {
         <h1 className="lg:ms-32 font-bold mt-28 lg:mt-36 ms-10 text-white lg:text-7xl text-5xl sm:mt-5">
         <span>Hello!, 👋</span> I'm <br /> <span className='text-lime-500'>Oluwasegun</span>
                 </h1>
-
                 <div className='lg:ms-32 ms-10 mt-5 text-white lg:text-5xl text-2xl'>
                     <h2 className=''>
                         A Proficient in{" "}
@@ -24,8 +23,6 @@ const Middle = () => {
                                 "CSS",
                                 500,
                                 "Bootstrap",
-                                500,
-                                "MERN Stack",
                                 500,
                                 "Express JS",
                                 500,
