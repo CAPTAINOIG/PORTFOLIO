@@ -1,28 +1,28 @@
 
 export const ProjectList = [
     {
-        image: "/image/book.jpeg",
-        title: "Real Estate Booking App",
-        gitlink: "https://captain-bnb.netlify.app/",
-        content: "Booking apps allow users to reserve various services or products, such as accommodations, flights, restaurants or lodging. This app allows users to book and host a property. This is fullstack project using React, Node and TailwindCSS",
-    },
-    {
         image: "/image/chat_app.png",
         title: "Chat App",
         gitlink: "https://captain-chat-app.netlify.app/",
         content: " Users share ideas, ask questions, and interact with other users without revealing their identity ",
     },
     {
-        image: "/image/school.jpg",
-        title: "School Portal",
-        gitlink: "https://captainoig-school-portal.netlify.app",
-        content: "Portals can play an important role in managing the staff, faculty, students, and rest of the workforce right from your desk It can increase a university’s profile and its ..",
-    },
-    {
         image: "/image/image1.jpg",
         title: "Shopping Sphere",
         gitlink: "https://shoppingsphere.netlify.app/",
         content: "E-commerce (electronic commerce) is the buying and selling of goods and services, or the transmitting of funds or data, over an electronic network, primarily the internet.",
+    },
+    {
+        image: "/image/book.jpeg",
+        title: "Real Estate Booking App",
+        gitlink: "https://captain-bnb.netlify.app/",
+        content: "Booking apps allow users to reserve various services or products, such as accommodations, flights, restaurants or lodging. This app allows users to book and host a property. This is fullstack project using React, Node and TailwindCSS",
+    },
+    {
+        image: "/image/school.jpg",
+        title: "School Portal",
+        gitlink: "https://captainoig-school-portal.netlify.app",
+        content: "Portals can play an important role in managing the staff, faculty, students, and rest of the workforce right from your desk It can increase a university’s profile and its ..",
     },
     {
         image: "/image/step.svg",
