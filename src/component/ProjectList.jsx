@@ -5,12 +5,11 @@ export const ProjectList = [
         title: "Real Estate Booking App",
         gitlink: "https://captain-bnb.netlify.app/",
         content: "Booking apps allow users to reserve various services or products, such as accommodations, flights, restaurants or lodging. This app allows users to book and host a property. This is fullstack project using React, Node and TailwindCSS",
-        
     },
     {
-        image: "/image/mask.jpeg",
-        title: "Anonymous App",
-        gitlink: "https://captainoig-anonymous-app.netlify.app",
+        image: "/image/chat_app.png",
+        title: "Chat App",
+        gitlink: "https://captain-chat-app.netlify.app/",
         content: " Users share ideas, ask questions, and interact with other users without revealing their identity ",
     },
     {
@@ -21,8 +20,8 @@ export const ProjectList = [
     },
     {
         image: "/image/image1.jpg",
-        title: "E-commerce",
-        gitlink: "https://captainoig-e-commerce.netlify.app/",
+        title: "Shopping Sphere",
+        gitlink: "https://shoppingsphere.netlify.app/",
         content: "E-commerce (electronic commerce) is the buying and selling of goods and services, or the transmitting of funds or data, over an electronic network, primarily the internet.",
     },
     {

@@ -4,7 +4,6 @@ import AboutMe from "./component/AboutMe";
 import Skills from "./component/Skills";
 import NavBarDesktop from "./component/NavBarDesktop";
 import { FaBars } from 'react-icons/fa'
-// import NavBar from "./component/Navbar";
 import Middle from "./component/Middle";
 import Card from "./component/Card";
 import AOS from "aos";
@@ -20,26 +19,30 @@ import Nav from "./component/Nav";
 function App() {
 
   useEffect(() => {
-
-    AOS.init();
-
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-out-cubic',
+      once: true,
+    });
   }, [])
-
 
   const [isOpen, setIsOpen] = useState(false);
   const toggleIsOpen = () => {
     setIsOpen(!isOpen);
   };
-  console.log(isOpen);
-  return (
-    <>
 
-      <div className="min-h-screen font-bodyFont overflow-x-hidden">
-        <div className="bg-lightBg fixed w-full top-0 z-[100000]">
+  return (
+    <div className="min-h-screen font-sans overflow-x-hidden relative">
+      <div className="blob blob-1"></div>
+      <div className="blob blob-2"></div>
+      <div className="blob blob-3"></div>
+      
+      <div className="relative z-10">
+        <div className="glass fixed w-full top-0 z-[100000]">
           <NavBarDesktop />
-          <div className=" text-red-200 cursor-pointer text-[1rem] lg:hidden transition duration-[0.8s]">
+          <div className="text-white cursor-pointer text-[1rem] lg:hidden transition duration-[0.8s] p-4">
             <Nav isOpen={isOpen} handleClose={toggleIsOpen} />
-            <FaBars className="mt-2 w-10" onClick={toggleIsOpen} />
+            <FaBars className="mt-2 w-8" onClick={toggleIsOpen} />
           </div>
         </div>
         <Middle />
@@ -52,9 +55,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
-    </>
-
-
+    </div>
   );
 }
 
