@@ -13,16 +13,16 @@ export const ProjectList = [
         content: "E-commerce (electronic commerce) is the buying and selling of goods and services, or the transmitting of funds or data, over an electronic network, primarily the internet.",
     },
     {
-        image: "/image/book.jpeg",
-        title: "Real Estate Booking App",
-        gitlink: "https://captain-bnb.netlify.app/",
-        content: "Booking apps allow users to reserve various services or products, such as accommodations, flights, restaurants or lodging. This app allows users to book and host a property. This is fullstack project using React, Node and TailwindCSS",
+        image: "/image/run1.jpg",
+        title: "Chat App",
+        gitlink: "captain-track.netlify.app",
+        content: "A modern fullstack chat application that allows users to communicate in real time through a clean and responsive interface. The app provides features for messaging, user accounts, conversations and seamless communication. Built with React, Node.js and TailwindCSS.",
     },
     {
-        image: "/image/school.jpg",
-        title: "School Portal",
-        gitlink: "https://captainoig-school-portal.netlify.app",
-        content: "Portals can play an important role in managing the staff, faculty, students, and rest of the workforce right from your desk It can increase a university’s profile and its ..",
+        image: "/image/tem.png",
+        title: "Phine Collection",
+        gitlink: "phine-collection.netlify.app",
+        content: "A modern fashion e-commerce store where users can browse, explore and purchase a wide range of clothing and fashion items through a simple and user-friendly interface.",
     },
     {
         image: "/image/step.svg",
@@ -35,8 +35,8 @@ export const ProjectList = [
         title: "Trending Movies",
         gitlink: "https://captain-oig-trending-movies.netlify.app/",
         content: "This app is centered on updating the viewers and movie lovers of changes and newly released movie. it contains the popular movies, similar, top rated and trendind movies",
-        
+
     },
 
-    
+
 ]
