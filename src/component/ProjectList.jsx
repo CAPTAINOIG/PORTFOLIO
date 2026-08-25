@@ -12,12 +12,12 @@ export const ProjectList = [
         gitlink: "https://shoppingsphere.netlify.app/",
         content: "E-commerce (electronic commerce) is the buying and selling of goods and services, or the transmitting of funds or data, over an electronic network, primarily the internet.",
     },
-    {
-        image: "/image/run1.jpg",
-        title: "Chat App",
-        gitlink: "captain-track.netlify.app",
-        content: "A modern fullstack chat application that allows users to communicate in real time through a clean and responsive interface. The app provides features for messaging, user accounts, conversations and seamless communication. Built with React, Node.js and TailwindCSS.",
-    },
+  {
+    image: "/image/run1.jpg",
+    title: "Captain Track",
+    gitlink: "captain-track.netlify.app",
+    content: "A modern fitness and activity tracking app inspired by platforms like Strava. It allows users to track activities such as running and cycling, monitor performance and progress, and stay motivated through a clean and responsive interface. Built with React, Node.js and TailwindCSS.",
+},
     {
         image: "/image/tem.png",
         title: "Phine Collection",
