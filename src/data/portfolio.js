@@ -122,7 +122,7 @@ export const projects = [
   {
     title: "Shopping Sphere",
     category: "E-commerce",
-    image: "/image/image1.jpg",
+    image: "/image/shopping_sphere.jpeg",
     live: "https://shoppingsphere.netlify.app/",
     description:
       "An online storefront for browsing products and buying goods over the internet, built around a straightforward shopping flow.",
@@ -130,7 +130,7 @@ export const projects = [
   {
     title: "Bright Future Community Network",
     category: "Community Platform",
-    image: "/image/bfcn.png",
+    image: "/image/bfcn.jpeg",
     imageFit: "contain",
     live: "https://bfcn.netlify.app",
     description:
@@ -148,7 +148,7 @@ export const projects = [
   {
     title: "Shadow Strike: Last Stand",
     category: "3D Game",
-    image: "/image/shadow_strike.png",
+    image: "/image/shadow_strike.jpeg",
     imageFit: "contain",
     live: "https://shadow-strike-gaming.netlify.app",
     tech: ["React", "React Three Fiber", "Three.js"],
